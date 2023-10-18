@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+#header input{
+    height:40px;
+    width:300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: bisque;
+}
+#header button
+{
+    background-color: black;
+    color: white;
+    height:40px;
+    width:100px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#movieslist
+{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap:5px;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.movieCard
+{
+    height:300px;
+    width:200px;
+}
+.movieCard img
+{
+    height:100px;
+    width:100px;
+    
+}
+
+body {
+    background-image: url('project42.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  #btn:hover {
+    background-color: orangered;
+    color: white;
+  }
